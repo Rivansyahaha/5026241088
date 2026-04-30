@@ -57,8 +57,8 @@
                 </a>
             </p>
             <p>
-                <a href="makeover" target="_blank" class="btn btn-primary">
-                    Tugas Pertemuan 5 - make over instagram
+                <a href="tugas_ets" target="_blank" class="btn btn-primary">
+                    Tugas pra ETS - make over instagram
                 </a>
         </center>
     </div>

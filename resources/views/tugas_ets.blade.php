@@ -27,7 +27,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="assets/css/makeover.css" rel="stylesheet">
+    <link href="assets/css/tugas_ets.css" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Arsha
@@ -43,7 +43,7 @@
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-            <a href="index" class="logo d-flex align-items-center me-auto">
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.webp" alt=""> -->
                 <h1 class="sitename">UrSnacks</h1>
@@ -55,6 +55,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#product">Product</a></li>
                     <li><a href="#affiliate">Affiliate</a></li>
+                    <li><a href="#testimonials">Testimoni</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -265,6 +266,142 @@
 
         </section><!-- /Affiliate Section -->
 
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Testimonials</h2>
+                <p>Apa kata mereka yaa...???</p>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/@hifniarr.png" class="testimonial-img" alt="">
+                                <h3>@hifniarr</h3>
+                                <h4>-</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>Beeeeuuuhhh ternyata awenak bgtt huhuu nyesel baru tauu ada dry fruit dari
+                                        @ursnacksindonesia #dryfruit #ursnacksindonesia #ursnack</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/@ngefoodly.png" class="testimonial-img" alt="">
+                                <h3>@ngefoodly</h3>
+                                <h4>-</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>Stroberi kering lapis coklatnya endul banget 🤤
+                                        @ursnacksindonesia</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/@tokomamaatthar.png" class="testimonial-img" alt="">
+                                <h3>@tokomamaatthar</h3>
+                                <h4>-</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>Ini beneran Snack atau buah asli ... ?? seriusan ini enaaaak bangettt ...
+                                        akhirnya yang tadinya ga suka buah jadi suka bangetttt karena ada
+                                        @ursnacksindonesia ini .. makan buah jadi ga pernah ribet lagi 🤤🤤🤤</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/@restiselviani_.png" class="testimonial-img" alt="">
+                                <h3>@restiselviani_</h3>
+                                <h4>-</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>Bener bener bikin nagih banget ini Buah keringnya🤤</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="assets/img/@ashraffwira.png" class="testimonial-img" alt="">
+                                <h3>@ashraffwira</h3>
+                                <h4>-</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>Pernah makan cemilan buah yang kriuk tapi masih manis segar kayak apel baru
+                                        dipetik? 🤔
+                                        Kelihatannya kayak snack biasa, tapi pas digigit… APEL-NYA MASIH BERASA! 🤯✨
+
+                                        Ursnacks jawabannya cemilan sehat yang bikin nagih tanpa rasa bersalah.
+                                        Hati-hati, sekali coba bisa khilaf ngemil terus 😏🍎</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section><!-- /Testimonials Section -->
+
         <!-- Contact Section -->
         <section id="contact" class="contact section">
 
@@ -305,10 +442,8 @@
                                 </div>
                             </div><!-- End Info Item -->
 
-                            <img
-                                src="assets/img/ursnacksindonesia.webp"
-                                frameborder="0" style="border:0; width: 100%;" allowfullscreen=""
-                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></img>
+                            <img src="assets/img/ursnacksindonesia.webp" frameborder="0" style="border:0; width: 100%;"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></img>
                         </div>
                     </div>
 
