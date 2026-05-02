@@ -81,7 +81,7 @@
                         <div class="d-flex">
                             <a href="#about" class="btn-get-started">About Us</a>
                             <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i
-                                    class="bi bi-play-circle"></i><span>Mulai Belanja</span></a>
+                                    class="bi bi-bag"></i><span>Mulai Belanja</span></a>
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
