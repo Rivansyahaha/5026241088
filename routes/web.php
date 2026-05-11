@@ -36,8 +36,8 @@ Route::get('/blog/kontak', [BlogController::class, 'kontak']);
 //crud tabel pegawai
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
 
-Route::get('index', function () {
-	return view('index');
+Route::get('index2', function () {
+	return view('index2');
 });
 
 Route::get('intro', function () {
