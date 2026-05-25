@@ -33,8 +33,14 @@ Route::get('/blog', [BlogController::class, 'home']);
 Route::get('/blog/tentang', [BlogController::class, 'tentang']);
 Route::get('/blog/kontak', [BlogController::class, 'kontak']);
 
-//crud tabel pegawai
+// route CRUD
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
+Route::get('/pegawai/tambah', [PegawaiDBController::class, 'tambah']);
+Route::post('/pegawai/store', [PegawaiDBController::class, 'store']);
+Route::get('/pegawai/edit/{id}', [PegawaiDBController::class, 'edit']);
+Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
+Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
+Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
 
 Route::get('index2', function () {
 	return view('index2');
