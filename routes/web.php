@@ -5,6 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
+use App\Http\Controllers\BolpenDBController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -33,7 +34,7 @@ Route::get('/blog', [BlogController::class, 'home']);
 Route::get('/blog/tentang', [BlogController::class, 'tentang']);
 Route::get('/blog/kontak', [BlogController::class, 'kontak']);
 
-// route CRUD
+// route CRUD - pegawai
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
 Route::get('/pegawai/tambah', [PegawaiDBController::class, 'tambah']);
 Route::post('/pegawai/store', [PegawaiDBController::class, 'store']);
@@ -41,6 +42,15 @@ Route::get('/pegawai/edit/{id}', [PegawaiDBController::class, 'edit']);
 Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
+
+// bolpen
+Route::get('/bolpen', [BolpenDBController::class, 'indexBolpen']);
+Route::get('/bolpen/tambah_bolpen', [BolpenDBController::class, 'tambah_bolpen']);
+Route::post('/bolpen/store_bolpen', [BolpenDBController::class, 'store_bolpen']);
+Route::get('/bolpen/edit_bolpen/{id}', [BolpenDBController::class, 'edit_bolpen']);
+Route::post('/bolpen/update_bolpen', [BolpenDBController::class, 'update_bolpen']);
+Route::get('/bolpen/hapus_bolpen/{id}', [BolpenDBController::class, 'hapus_bolpen']);
+Route::get('/bolpen/cari_bolpen', [BolpenDBController::class, 'cari_bolpen']);
 
 Route::get('index2', function () {
 	return view('index2');
