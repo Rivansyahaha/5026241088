@@ -8,6 +8,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\BolpenDBController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\NilaikuliahController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -62,13 +63,19 @@ Route::post('/bolpen/update_bolpen', [BolpenDBController::class, 'update_bolpen'
 Route::get('/bolpen/hapus_bolpen/{id}', [BolpenDBController::class, 'hapus_bolpen']);
 Route::get('/bolpen/cari_bolpen', [BolpenDBController::class, 'cari_bolpen']);
 
-// Route Keranjang Belanja
+// route keranjang belanja
 Route::get('/keranjang', [KeranjangBelanjaController::class, 'index'])->name('keranjang.index');
 Route::get('/keranjang/tambah', [KeranjangBelanjaController::class, 'tambah'])->name('keranjang.tambah');
 Route::post('/keranjang/store', [KeranjangBelanjaController::class, 'store'])->name('keranjang.store');
 Route::get('/keranjang/{id}/edit', [KeranjangBelanjaController::class, 'edit'])->name('keranjang.edit');
 Route::put('/keranjang/{id}/update', [KeranjangBelanjaController::class, 'update'])->name('keranjang.update');
 Route::delete('/keranjang/{id}', [KeranjangBelanjaController::class, 'batal'])->name('keranjang.batal');
+//
+
+// route nilai kuliah
+Route::get('/nilaikuliah', [NilaikuliahController::class, 'index'])->name('nilaikuliah.index');
+Route::get('/nilaikuliah/tambah', [NilaikuliahController::class, 'tambah'])->name('nilaikuliah.tambah');
+Route::post('/nilaikuliah/store', [NilaikuliahController::class, 'store'])->name('nilaikuliah.store');
 //
 
 Route::get('index2', function () {
